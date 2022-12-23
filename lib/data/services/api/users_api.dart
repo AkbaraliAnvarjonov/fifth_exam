@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:fifth_exam/data/api_service/api_client.dart';
+import 'package:fifth_exam/data/services/api/api_client.dart';
 import 'package:fifth_exam/data/model/my_response.dart';
 import 'package:fifth_exam/data/model/user_model/users_model.dart';
 

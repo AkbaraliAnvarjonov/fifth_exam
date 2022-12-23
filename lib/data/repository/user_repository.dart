@@ -1,4 +1,4 @@
-import 'package:fifth_exam/data/api_service/users_api.dart';
+import 'package:fifth_exam/data/services/api/users_api.dart';
 import 'package:fifth_exam/data/model/my_response.dart';
 
 class UserRepository {

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:fifth_exam/data/api_service/custom_exceptions.dart';
+import 'package:fifth_exam/data/services/api/custom_exceptions.dart';
 import 'package:flutter/cupertino.dart';
 
 class ApiClient {

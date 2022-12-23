@@ -1,3 +1,4 @@
+import 'package:fifth_exam/ui/student_page/student_page.dart';
 import 'package:fifth_exam/ui/user_page/users_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,14 +13,25 @@ class MyHomePage extends StatelessWidget {
           child: Column(
         children: [
           ElevatedButton(
-              onPressed: (() {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const UsersPage(),
-                    ));
-              }),
-              child: const Text("User Api"))
+            onPressed: (() {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const StudentPage(),
+                  ));
+            }),
+            child: const Text("Student Firebase"),
+          ),
+          ElevatedButton(
+            onPressed: (() {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const UsersPage(),
+                  ));
+            }),
+            child: const Text("User Api"),
+          )
         ],
       )),
     );

@@ -16,10 +16,7 @@ class UserViewModel extends ChangeNotifier {
   fetchTransactionsList() async {
     MyResponse response = await _userRepository.getUser();
     if (response.error.isEmpty) {
-      userList = response.data as List<UserModel>
-      
-      
-      ;
+      userList = response.data as List<UserModel>;
     } else {
       errorForUI = response.error;
     }
