@@ -1,3 +1,4 @@
+import 'package:fifth_exam/ui/animation_page/animation_page.dart';
 import 'package:fifth_exam/ui/student_page/student_page.dart';
 import 'package:fifth_exam/ui/user_page/users_page.dart';
 import 'package:flutter/material.dart';
@@ -31,6 +32,16 @@ class MyHomePage extends StatelessWidget {
                   ));
             }),
             child: const Text("User Api"),
+          ),
+          ElevatedButton(
+            onPressed: (() {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimationPage(),
+                  ));
+            }),
+            child: const Text("Animation"),
           )
         ],
       )),
